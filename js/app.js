@@ -1,21 +1,24 @@
+'use strict';
+
 const arr = [];
 
 // GOAL: get the information from the data.json file, fill the template and display to the page
 
-
-
 // use ajax to get the information from data.json file
-$.ajax('page-1.json', {method: 'GET', dataType: 'JSON'})
+$.ajax('./data/page-1.json', {method: 'GET', dataType: 'JSON'})
+
   .then(data => {
+
     // run the information through a constructor function in order to normalize the data
+
 
 
     data.forEach(objectInDataArray => {
       new Pic(objectInDataArray).picBuilder();
 
 
-      if(arr.includes(objectInDataArray.keyword) === false){
-        
+      if(!arr.includes(objectInDataArray.keyword)){
+
         arr.push(objectInDataArray.keyword);
         console.log('This is our arr at real time: '+ arr);
 
@@ -26,9 +29,9 @@ $.ajax('page-1.json', {method: 'GET', dataType: 'JSON'})
 
     });
 
-
-
   });
+
+
 
 function Pic(obj){
   this.title = obj.title;
@@ -82,31 +85,12 @@ $(document).ready(function(){
 
       var selected = $(this).children("option:selected").val();
 
-      $('section').removeClass(selected);
-
       alert("You have selected " + selected);
+
+    $('section').hide();
+
+    $(`.${selected}`).show();
 
   });
 
 });
-
-// async code
-// $('select').on('click', 'option', function(){
-//   $('option').removeClass('select'.value);
-//   console.log('this is our this:', this);
-//   // 'this' is the event.target
-// });
-
-// $('#form').submit((event) => {
-//   event.preventDefault();
-//   console.log('form submitted');
-// });
-
-// // non-ansync code needs to go in here to wait for the page to be ready before it can run
-// $().ready(
-//   console.log( 'ready!' )
-// );
-
-
-// how do we make it so that EVERY <a> console.logs() the text?
-console.log("This is our last line of code: "+ arr);
