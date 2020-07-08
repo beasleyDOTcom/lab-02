@@ -5,7 +5,7 @@ const arr = [];
 // GOAL: get the information from the data.json file, fill the template and display to the page
 
 // use ajax to get the information from data.json file
-$.ajax('./data/page-1.json', {method: 'GET', dataType: 'JSON'})
+$.ajax('./data/page-2.json', {method: 'GET', dataType: 'JSON'})
 
   .then(data => {
 
