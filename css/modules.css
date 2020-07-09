@@ -1,0 +1,27 @@
+section{
+  width: 200px;
+  height: auto;
+  background-color: azure;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+section{
+  font-size: medium;
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+
+a{
+  margin-bottom: 20px;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+  text-decoration: underline;
+padding: 15px;
+background: black;
+border-radius: 15%;
+}
