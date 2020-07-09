@@ -1,4 +1,16 @@
+main{
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section{
+  width: 200px;
+  height: 300px;
+}
+
+
 img{
-  height: 200px;
-  width: auto;
+  width: 200px;
+  height: auto;
 }
