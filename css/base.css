@@ -1,43 +1,16 @@
-/* .narwhal{
-  display: none;
+main{
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.rhino{
-  display: none;
+section{
+  width: 200px;
+  height: 300px;
 }
 
-.unicorn{
-  display: none;
-}
 
-.unilego{
-  display: none;
+img{
+  width: 200px;
+  height: auto;
 }
-
-.triceratops{
-  display: none;
-}
-
-.markhor{
-  display: none;
-}
-
-.mouflon{
-  display: none;
-}
-
-.addax{
-  display: none;
-}
-
-.chameleon{
-  display: none;
-}
-
-.lizard{
-  display: none;
-}
-
-.dragon{
-  display: none;
-} */
