@@ -2,7 +2,7 @@
 ## Lab 3
 
 ### Feature 1
-
+What a Day.
 Number and name of feature: Pagination
 
 Estimate of time needed to complete: 40 minutes
