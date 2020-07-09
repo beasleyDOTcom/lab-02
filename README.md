@@ -1,39 +1,50 @@
 
-## Welcome to GitHub Pages
+## Lab 3
 
-You can use the [editor on GitHub](https://github.com/thatvetdevrob/lab-02/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Feature 1
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Number and name of feature: Pagination
 
-### Markdown
+Estimate of time needed to complete: 40 minutes
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Start time: 2:30
 
-```markdown
-Syntax highlighted code block  HIII
+Finish time: 2:45
 
-# Header 1
-## Header 2
-### Header 3
+Actual time needed to complete: 15 mins
 
-- Bulleted
-- List
+### Feature 2
 
-1. Numbered
-2. List
+Number and name of feature: Templating
 
-**Bold** and _Italic_ and `Code` text
+Estimate of time needed to complete: hour
 
-[Link](url) and ![Image](src)
-```
+Start time: 2:45pm
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Finish time: 4:50pm
 
-### Jekyll Themes
+Actual time needed to complete: hours.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thatvetdevrob/lab-02/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Feature 3
 
-### Support or Contact
+Number and name of feature: Styling w Flex box
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Estimate of time needed to complete: days
 
+Start time: 4:50 pm
+
+Finish time: 4:55 pm
+
+Actual time needed to complete: 5 minutes
+
+### Feature 4
+
+Number and name of feature: Image sort (by keyword)
+
+Estimate of time needed to complete: hours and days
+
+Start time: 4:55pm
+
+Finish time: 4:55pm
+
+Actual time needed to complete: less than a minute.
