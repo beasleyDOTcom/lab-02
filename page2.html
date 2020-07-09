@@ -1,38 +1,59 @@
-<!-- Note: you may use this starter code, but it is not a requirement -->
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>The Gallery of Horns Page 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Gallery of Horns</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="styles.css">
     <link rel= "stylesheet" href = "css/reset.css">
     <link rel= "stylesheet" href ="css/base.css">
     <link rel= "stylesheet" href ="css/layout.css">
     <link rel= "stylesheet" href ="css/modules.css">
-   
-  </head>
-  <body>
-    <header>
-      <h1>The Gallery of Horns</h1>
-      <select>
-        <option value="default">Filter by Keyword</option>
-      </select>
-    </header>
-    <main>
-      <section id="photo-template">
-        <h2></h2>
-        <img src="" alt="">
-        <p></p>
-      </section>
-    </main>
-    <footer>
-    <a href = "index.html">Back Home</a>
-      &copy; 2018 Code Fellows
-    </footer>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
-  </body>
+
+  <!-- Begin/Build the demo without this template. Build it as we refactor (Demo part 3) -->
+  <script id="neighborhood-template" type="text/x-tmpl-mustache">
+    <section class='{{keyword}}'>
+      <img src='{{image_url}}'>
+      <p>{{title}}</p>
+      <p>{{description}}</p>
+      <p>{{keyword}}</p>
+      <p>{{horns}}</p>
+    </section>
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <h1>The Gallery of Horns</h1>
+    <br>
+    <a href='index.html'>Link to Next Page</a>
+    <br>
+    <select>
+      <option value="default">Filter by Keyword</option>
+    </select>
+  </header>
+  <main>
+
+  </main>
+
+  <footer>
+    <span>&copy; 2018 Fake Data Limited</span>
+  </footer>
+
+  <!-- bring in jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+  <!-- bring in mustache  -->
+  <script src="https://unpkg.com/mustache@latest"></script>
+
+  <!-- this is my array that is just a javaScript file -->
+  <script src="js/dataSet2.js"></script>
+
+  <!-- this is my javaScript file  -->
+  <script src="js/neighborhood2.js"></script>
+</body>
+
 </html>
